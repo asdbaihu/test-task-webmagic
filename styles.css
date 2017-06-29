@@ -1,0 +1,308 @@
+/* Scss Document */
+img {
+  max-width: 100%; }
+
+h1 {
+  color: #fff;
+  font-size: 42px; }
+
+h2 {
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+  color: #374c91;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 23px;
+  color: #3c3c3c;
+  font-family: "Ubuntu", sans-serif; }
+
+a {
+  color: #fff; }
+
+a:hover {
+  color: #fff; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #212121; }
+
+header {
+  background: url(img/bg-head.png) no-repeat scroll top;
+  background-size: cover; }
+
+.btn-default {
+  background: #374c91;
+  border: none;
+  border-radius: 0;
+  color: #fff; }
+
+.bg-main-menu {
+  position: absolute;
+  top: 0;
+  z-index: 11;
+  background-color: white;
+  opacity: 0.302;
+  width: 100%;
+  height: 50px; }
+
+.navbar-default {
+  position: relative;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background: none;
+  border: none; }
+
+.navbar-brand {
+  font-size: 26px; }
+
+.blue-text {
+  color: #374c91;
+  text-decoration: none; }
+
+.white-text {
+  color: #fff;
+  text-decoration: none; }
+
+.navbar-default .navbar-nav li a {
+  font: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: #fff; }
+
+.navbar-default .navbar-nav li a img {
+  margin-left: 5px; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  text-decoration: underline; }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff; }
+
+.dropdown-menu,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: url(img/bg-dropdown.png) repeat scroll top; }
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+  background: none;
+  text-decoration: underline; }
+
+.navbar-default .navbar-text {
+  color: #fff;
+  font-size: 16px;
+  float: right; }
+
+.head-menu {
+  padding-left: 60px; }
+
+.bloc-serch {
+  padding: 150px 0 230px;
+  text-align: center; }
+  .bloc-serch p {
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 30px; }
+  .bloc-serch .search {
+    height: 55px; }
+    .bloc-serch .search .btn-default {
+      margin-top: -4px;
+      font-size: 24px;
+      width: 250px;
+      height: 100%; }
+  .bloc-serch .inp-search {
+    width: 525px;
+    height: 100%;
+    margin-right: -4px;
+    background: url(img/search-icon.png) no-repeat scroll left #fff;
+    background-position-x: 3%;
+    border: none;
+    padding-left: 50px; }
+
+.down {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 38px;
+  margin-top: -10px; }
+  .down .callme {
+    background: #374c91;
+    border: none;
+    color: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 40px; }
+  .down .btn-down {
+    color: #fff; }
+
+.modal-dialog {
+  width: 308px; }
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0; }
+  .modal-content .modal-body {
+    color: #fff;
+    text-align: center;
+    padding: 30px; }
+    .modal-content .modal-body h4 {
+      padding-bottom: 20px;
+      font-size: 22px; }
+    .modal-content .modal-body .close {
+      opacity: 1;
+      margin-top: -8px; }
+    .modal-content .modal-body .btn-default {
+      margin-top: 27px;
+      width: 255px;
+      height: 55px;
+      font-size: 20px; }
+    .modal-content .modal-body .inp-box {
+      width: 100%;
+      padding: 13px 5px; }
+      .modal-content .modal-body .inp-box .callme-inf {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #5e5e5e;
+        float: none;
+        margin: 0 auto;
+        width: 100%; }
+
+.recent-projects {
+  text-align: center;
+  padding: 70px 0 45px; }
+  .recent-projects hr {
+    width: 76px;
+    border-top: 6px solid #374c91; }
+  .recent-projects p {
+    font-size: 18px;
+    max-width: 455px;
+    float: none;
+    margin: 0 auto; }
+
+.wrap-l {
+  float: right;
+  padding-right: 60px; }
+  .wrap-l .img {
+    padding-right: 45px; }
+
+.wrap-r {
+  padding-left: 65px; }
+  .wrap-r .img {
+    display: inline-block;
+    float: left; }
+  .wrap-r .txt-bloc {
+    display: inline-block;
+    float: left;
+    padding-left: 75px; }
+
+.member {
+  background: #dbd7e5; }
+
+.project {
+  background: #b6cbd9; }
+
+.find {
+  padding: 0; }
+
+.img {
+  float: left;
+  padding-top: 80px; }
+
+.txt-bloc {
+  max-width: 400px;
+  float: right;
+  padding: 40px 0 25px; }
+  .txt-bloc p {
+    padding: 25px 0 0;
+    max-width: 300px;
+    height: 130px;
+    font-size: 17px;
+    color: #3c3c3c; }
+
+.bg-1 {
+  background: url(img/img1.png) no-repeat scroll top; }
+
+.bg-2 {
+  background: url(img/img2.png) no-repeat scroll top; }
+
+.bg-3 {
+  background: url(img/img3.png) no-repeat scroll top; }
+
+.bg-4 {
+  background: url(img/img4.png) no-repeat scroll top; }
+
+.img-info {
+  padding: 0; }
+
+.bloc-img:hover .hover-info {
+  opacity: 1; }
+
+.bloc-img {
+  padding: 20px;
+  background-size: cover; }
+
+.hover-info {
+  padding: 20px 30px 25px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  overflow: hidden;
+  opacity: 0; }
+  .hover-info h4 {
+    text-align: center;
+    text-transform: uppercase; }
+  .hover-info hr {
+    width: 35px;
+    border-top: 4px solid #fff; }
+  .hover-info p {
+    padding-top: 5px; }
+
+footer {
+  background: #1c1c1c;
+  text-align: center;
+  color: #8d8d8d; }
+  footer .copyright {
+    padding: 25px 0; }
+    footer .copyright p {
+      margin: 0; }
+
+@media (max-width: 980px) and (min-width: 768px) {
+  .navbar-brand {
+    font-size: 19px; }
+
+  .navbar-default .navbar-nav li a {
+    font-size: 16px;
+    padding: 15px 5px; }
+
+  .head-menu {
+    padding-left: 0; }
+
+  .navbar-default .navbar-text {
+    font-size: 16px; }
+
+  .bloc-serch {
+    padding: 100px 0 150px; }
+    .bloc-serch .search {
+      width: 100%; }
+      .bloc-serch .search .inp-search {
+        width: 70%; }
+      .bloc-serch .search .btn-default {
+        width: 30%; } }
+@media (max-width: 767px) {
+  .navbar-text {
+    margin-top: -35px;
+    margin-bottom: 0; }
+
+  .head-menu {
+    text-align: center;
+    padding: 0; }
+
+  .navbar-nav .open .dropdown-menu {
+    text-align: center; }
+
+  .bloc-serch {
+    padding: 100px 0 150px; }
+    .bloc-serch .search {
+      width: 100%; }
+      .bloc-serch .search .inp-search {
+        width: 70%; }
+      .bloc-serch .search .btn-default {
+        width: 30%; } }
